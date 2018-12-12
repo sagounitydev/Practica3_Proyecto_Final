@@ -265,7 +265,6 @@ GameObject:
   - component: {fileID: 114730015624423724}
   - component: {fileID: 54405615693922322}
   - component: {fileID: 136042241854659580}
-  - component: {fileID: 195818518063223220}
   m_Layer: 0
   m_Name: ZombiWarrior
   m_TagString: Player
@@ -1706,7 +1705,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1262818765279774}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 270.14, y: 9.86, z: 269.82}
+  m_LocalPosition: {x: 362.4, y: 9.86, z: 262.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4207167023713266}
@@ -2381,24 +2380,3 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.047831386, y: 0.015655458, z: 0.07723707}
     m_Extent: {x: 0.6952251, y: 0.9430608, z: 0.47683996}
   m_DirtyAABB: 0
---- !u!195 &195818518063223220
-NavMeshAgent:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1262818765279774}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
