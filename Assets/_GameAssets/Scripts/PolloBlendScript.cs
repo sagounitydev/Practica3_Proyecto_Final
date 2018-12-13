@@ -15,6 +15,7 @@ public class PolloBlendScript : MonoBehaviour {
     float vidas = 3;
     float energia = 100;
     public Text textScore;
+    public Text textVida;
 
     void Start() {
         miAnimator = GetComponent<Animator>();
