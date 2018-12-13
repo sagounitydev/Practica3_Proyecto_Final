@@ -23,6 +23,7 @@ public class PolloBlendScript : MonoBehaviour {
 
     void Update() {
         textScore.text = "Score: " + puntos.ToString();
+        textVida.text = "Vidas: " + vidas.ToString();
         /*float x = Input.GetAxis("Horizontal");
         if (Input.GetKeyDown(KeyCode.UpArrow)){
             miAnimator.SetBool("Andando", true);
@@ -35,7 +36,7 @@ public class PolloBlendScript : MonoBehaviour {
             transform.Rotate(0, x, 0);
         }*/
 
-if (Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.LeftShift)) {
+        if (Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.LeftShift)) {
             //Anda (si está corriendo decrece la velocidad)
             corriendo = corriendo - 0.05f;
             corriendo = Mathf.Max(0.11f, corriendo);
