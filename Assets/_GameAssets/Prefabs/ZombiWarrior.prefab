@@ -2286,6 +2286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textScore: {fileID: 0}
+  textVida: {fileID: 0}
 --- !u!136 &136042241854659580
 CapsuleCollider:
   m_ObjectHideFlags: 1
