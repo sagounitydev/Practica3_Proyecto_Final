@@ -4768,31 +4768,6 @@ Prefab:
       propertyPath: m_Name
       value: CheckPoint (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 65339402016973544, guid: 3b0cf9e04fe188a44a805a9725ed4177,
-        type: 2}
-      propertyPath: m_Size.z
-      value: 5.7685614
-      objectReference: {fileID: 0}
-    - target: {fileID: 65339402016973544, guid: 3b0cf9e04fe188a44a805a9725ed4177,
-        type: 2}
-      propertyPath: m_Center.z
-      value: -4.2485223
-      objectReference: {fileID: 0}
-    - target: {fileID: 65339402016973544, guid: 3b0cf9e04fe188a44a805a9725ed4177,
-        type: 2}
-      propertyPath: m_Center.x
-      value: -0.56797403
-      objectReference: {fileID: 0}
-    - target: {fileID: 65339402016973544, guid: 3b0cf9e04fe188a44a805a9725ed4177,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 14.209957
-      objectReference: {fileID: 0}
-    - target: {fileID: 114245894822056694, guid: 3b0cf9e04fe188a44a805a9725ed4177,
-        type: 2}
-      propertyPath: Activated
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b0cf9e04fe188a44a805a9725ed4177, type: 2}
   m_IsPrefabAsset: 0
@@ -8790,6 +8765,11 @@ Prefab:
       propertyPath: textScore
       value: 
       objectReference: {fileID: 1561113371}
+    - target: {fileID: 95028761010560366, guid: 8a43c45bab7dab74893eee450b74695c,
+        type: 2}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 938ceaa2ebc79134281e71a4295b3e5b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a43c45bab7dab74893eee450b74695c, type: 2}
   m_IsPrefabAsset: 0
